@@ -39,9 +39,14 @@ const NavBar = () => {
                 </a>
               </li>
             ))}
+            <li className="group">
+              <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
+                <span>Resume</span>
+                <span className="underline" />
+              </a>
+            </li>
           </ul>
         </nav>
-
         <a href="#contact" className="contact-btn group">
           <div className="inner">
             <span>Contact me</span>
@@ -50,6 +55,6 @@ const NavBar = () => {
       </div>
     </header>
   );
-}
+};
 
 export default NavBar;

@@ -148,13 +148,29 @@ const techStackIcons = [
 const expCards = [
   {
     review:
+      "Ali's Restaurant Management System demonstrates strong front-end development skills using only HTML, CSS, and JavaScript. It delivers a functional and role-based interface for restaurant operations.",
+    imgPath: "/images/exp7.png", // Editable project screenshot
+    logoPath: "/images/logo7.svg", // Editable project logo
+    imgStyle: { width: "50%", height: "auto" },
+    logoStyle: { width: "50px", height: "50px", objectFit: "contain", marginLeft: "0px", marginTop: "7px" }, // Added marginLeft and marginTop for fine-tuning logo position
+    title: "Front-End Developer – Restaurant Management System",
+    date: "January 2023 – June 2023",
+    responsibilities: [
+      "Designed and built a responsive multi-page web app using HTML, CSS, and JavaScript.",
+      "Created separate interfaces for admin (table & order management), staff (waitlist & reservations), and guests (online ordering).",
+      "Implemented dynamic page interactions and real-time UI updates with vanilla JavaScript.",
+      "Focused on user experience and interface clarity across all user roles."
+    ],
+  },
+  {
+    review:
       "Ali's Unity kitchen simulator showcased impressive game mechanics and creativity. The attention to detail in modeling and interactivity was outstanding.",
     imgPath: "/images/exp6.png", // Editable image for the card
     logoPath: "/images/logo6.png", // Editable logo for the circle
     imgStyle: { width: "50%", height: "auto" }, // Allow resizing the image in the card
     logoStyle: { width: "50px", height: "50px", objectFit: "contain", marginLeft: "-7px" }, // Added marginLeft for fine-tuning logo position
     title: "Game Developer – Kitchen Chaos",
-    date: "January 2023 – June 2023",
+    date: "September 2023 – January 2024",
     responsibilities: [
       "Developed a 3D multiplayer kitchen simulation game using Unity.",
       "Modeled characters, utensils, and environment assets in Blender.",
@@ -169,7 +185,7 @@ const expCards = [
     logoPath: "/images/logo4.png", // Editable logo for the circle
     imgStyle: { width: "50%", height: "auto" }, // Allow resizing the image in the card
     logoStyle: { width: "50px", height: "50px", objectFit: "contain" }, // Allow resizing the logo in the circle
-    title: "Machine Learning Engineer – Nutrition Detection",
+    title: "Machine Learning – Nutrition Detection",
     date: "January 2024 – June 2024",
     responsibilities: [
       "Developed a food detection system using YOLO and Python in Jupyter Notebook.",
@@ -229,46 +245,52 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Sarah Mahmoud",
+    mentions: "@sarahmahmoud",
     review:
-      "I can’t say enough good things about Ali. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
-    imgPath: "/images/client1.png",
+      "Ali was a key player in our final year group project. His work on the backend with Django and containerization with Docker helped streamline our deployment process massively. Always reliable and sharp under pressure.",
+    imgPath: "/images/sarah.png",
+    style: { width: "50px", height: "50px", borderRadius: "50%", objectFit: "cover" }, // Added style for circular image and resizing
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Mohamed Tarek",
+    mentions: "@tarek.tech",
     review:
-      "Working with Ali was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
+      "Working with Ali on our machine learning coursework was a great experience. He handled the YOLO model training and Jupyter integration with ease. His ability to link technical components to practical outputs stood out.",
+    imgPath: "/images/killua.gif",
+    style: { width: "50px", height: "50px", borderRadius: "50%", objectFit: "cover" },
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
+    name: "Nour ElDin Saeed",
+    mentions: "@noureldin",
     review:
-      "Collaborating with Ali was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ali's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ali is the ideal partner.",
-    imgPath: "/images/client2.png",
+      "Ali’s 3D portfolio project blew us away. His work with Three.js and GSAP looked so polished and professional. He’s not only a great coder but also has a solid eye for design and UX.",
+    imgPath: "/images/zoro2.gif",
+    style: { width: "50px", height: "50px", borderRadius: "50%", objectFit: "cover" },
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Lina Adel",
+    mentions: "@lina.3d",
     review:
-      "Ali was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Ali’s Blender modeling skills really impressed me. He helped create detailed and optimized 3D assets for our game project, and his attention to shape and texture made everything look professional inside Unity.",
+    imgPath: "/images/lina.png",
+    style: { width: "50px", height: "50px", borderRadius: "50%", objectFit: "cover" },
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Mohamed Amgad",
+    mentions: "@mohamedamgad",
     review:
-      "Ali’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
+      "Ali and I worked together on a restaurant management web app for our coursework. He handled key front-end features using HTML, CSS, and JavaScript, including order flows, table interfaces, and role-based UI. His code was clean and easy to integrate with the rest of the project.",
+    imgPath: "/images/amgad.png",
+    style: { width: "50px", height: "50px", borderRadius: "50%", objectFit: "cover" },
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Khaled Gamal ",
+    mentions: "@khaleddev",
     review:
-      "Ali was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
+      "I’ve collaborated with Ali on Unity game dev, and I can confidently say he’s both creative and technically skilled. His Blender models and game logic in our kitchen sim project brought everything to life.",
+    imgPath: "/images/pfp2.png",
+    style: { width: "50px", height: "50px", borderRadius: "50%", objectFit: "cover" },
   },
 ];
 
@@ -276,18 +298,23 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    href: "https://www.instagram.com/ali.eltouny/", // Added href for Instagram
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    href: "https://www.facebook.com/ali.eltouny.39", // Added href for Facebook
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    style: { width: "22.5px", height: "22.5px" }, // Added style property for resizing
+    href: "https://github.com/AliEltouny", // Added href for GitHub
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    href: "https://www.linkedin.com/in/ali-eltouny-076aa3279/", // Added href for LinkedIn
   },
 ];
 

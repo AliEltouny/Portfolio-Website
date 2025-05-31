@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
           title="What People Say About Me?"
-          sub="Customer feedback highlights"
+          sub="Peers feedback highlights"
         />
 
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
@@ -16,7 +16,16 @@ const Testimonials = () => {
             <GlowCard card={testimonial} key={index} index={index}>
               <div className="flex items-center gap-3">
                 <div>
-                  <img src={testimonial.imgPath} alt="" />
+                  <img
+                    src={testimonial.imgPath}
+                    alt="testimonial"
+                    style={{
+                      width: testimonial.style?.width,
+                      height: testimonial.style?.height,
+                      borderRadius: testimonial.style?.borderRadius,
+                      objectFit: testimonial.style?.objectFit as React.CSSProperties['objectFit'], // Explicitly cast objectFit
+                    }}
+                  />
                 </div>
                 <div>
                   <p className="font-bold">{testimonial.name}</p>

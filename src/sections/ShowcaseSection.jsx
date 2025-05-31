@@ -63,18 +63,18 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={kitchenRef}>
-              <div className="image-wrapper bg-[#ffe0bc] flex justify-center items-center">
+              <div className="image-wrapper bg-[#b0c4df] flex justify-center items-center">
                 <img
-                  src="/images/kitchen2.png"
+                  src="/images/Restaurant4.png"
                   alt="Kitchen Simulation Game"
                   style={{ width: "80%", height: "80%", maxWidth: "100%", maxHeight: "100%" }} // Allow resizing without affecting the wrapper
                 />
               </div>
-              <h2>Kitchen Simulation Game - Using Unity</h2>
+              <h2>Admin, Staff & Guest Restaurant Platform</h2> 
             </div>
 
             <div className="project" ref={chessRef}>
-              <div className="image-wrapper bg-[#ced9b4] flex justify-center items-center">
+              <div className="image-wrapper bg-[#c7bca9] flex justify-center items-center">
                 <img
                   src="/images/chess3.png"
                   alt="Chess App"
