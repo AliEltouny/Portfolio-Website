@@ -53,6 +53,7 @@ const AppShowcase = () => {
                 href="https://github.com/AliEltouny/Nutrition-Detection-App"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex justify-center items-center"
               >
                 <img src="/images/ml1.png" alt="ML App Interface" />
               </a>
@@ -74,6 +75,7 @@ const AppShowcase = () => {
                   href="https://github.com/AliEltouny/Restaurant-Management-System"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="flex justify-center items-center"
                 >
                   <img
                     src="/images/Restaurant4.png"
@@ -83,7 +85,7 @@ const AppShowcase = () => {
                       height: "80%",
                       maxWidth: "100%",
                       maxHeight: "100%",
-                    }} // Allow resizing without affecting the wrapper
+                    }}
                   />
                 </a>
               </div>
@@ -96,6 +98,7 @@ const AppShowcase = () => {
                   href="https://github.com/AliEltouny/Chess-Mobile-App"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="flex justify-center items-center"
                 >
                   <img
                     src="/images/chess3.png"
@@ -105,7 +108,7 @@ const AppShowcase = () => {
                       height: "90%",
                       maxWidth: "100%",
                       maxHeight: "100%",
-                    }} // Allow resizing without affecting the wrapper
+                    }}
                   />
                 </a>
               </div>
