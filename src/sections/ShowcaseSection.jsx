@@ -49,7 +49,13 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={mlRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/ml1.png" alt="ML App Interface" />
+              <a
+                href="https://github.com/AliEltouny/Nutrition-Detection-App"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/images/ml1.png" alt="ML App Interface" />
+              </a>
             </div>
             <div className="text-content">
               <h2>
@@ -64,22 +70,44 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={kitchenRef}>
               <div className="image-wrapper bg-[#b0c4df] flex justify-center items-center">
-                <img
-                  src="/images/Restaurant4.png"
-                  alt="Kitchen Simulation Game"
-                  style={{ width: "80%", height: "80%", maxWidth: "100%", maxHeight: "100%" }} // Allow resizing without affecting the wrapper
-                />
+                <a
+                  href="https://github.com/AliEltouny/Restaurant-Management-System"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/images/Restaurant4.png"
+                    alt="Kitchen Simulation Game"
+                    style={{
+                      width: "80%",
+                      height: "80%",
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                    }} // Allow resizing without affecting the wrapper
+                  />
+                </a>
               </div>
-              <h2>Admin, Staff & Guest Restaurant Platform</h2> 
+              <h2>Admin, Staff & Guest Restaurant Platform</h2>
             </div>
 
             <div className="project" ref={chessRef}>
               <div className="image-wrapper bg-[#c7bca9] flex justify-center items-center">
-                <img
-                  src="/images/chess3.png"
-                  alt="Chess App"
-                  style={{ width: "90%", height: "90%", maxWidth: "100%", maxHeight: "100%" }} // Allow resizing without affecting the wrapper
-                />
+                <a
+                  href="https://github.com/AliEltouny/Chess-Mobile-App"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="/images/chess3.png"
+                    alt="Chess App"
+                    style={{
+                      width: "90%",
+                      height: "90%",
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                    }} // Allow resizing without affecting the wrapper
+                  />
+                </a>
               </div>
               <h2>Chess App - An Android Studio App</h2>
             </div>
