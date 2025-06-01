@@ -116,7 +116,7 @@ npm install react-countup
 
 ## Resume
 
-A link to my CV is provided in both the navigation bar and footer for mobile convenience. https://alieltouny.vercel.app/CV.pdf
+A link to my CV is provided in both the navigation bar and footer for mobile convenience. https://alieltouny.vercel.app
 
 ---
 
