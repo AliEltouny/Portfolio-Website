@@ -1,0 +1,96 @@
+Creating my 3d portfolio:
+
+step by step:
+
+1. create the react.js project
+
+set up the project folder firstly 
+
+npm create vite@latest using vite to host run out project:
+
+npm install 
+
+npm run dev 
+
+fiddle with the app.tsx make my own little header 1
+
+install the dependencies we will need for this project 
+
+npm install gsap @gsap/react three @react-three/fiber @react-three/drei @react-three/postprocessing
+
+2. install and configure tailwind css v4
+
+npm install tailwindcss @tailwindcss/vite
+
+then Configure the Vite plugin
+
+Import Tailwind CSS
+
+create an appropriate css and test to see if tailwind is linked to the header using className to check if so then finished this part
+
+3. Hero text & Layout
+
+start designing my hero section of my project added a nice slide span w span wrapper connected to the constants section w index.js which will have the words navlinks logoiconslist abilities techstackimgs techstackicons expCards explogos socialimgs and the testimonials then I export it obv
+
+the word slidder uses a nice keyframes wordslider function that transforms the translateY starts w 0.5 and ends with 87.5 that's what gives it that smooth transition 
+
+then added a nice button with a transition 
+
+4. Hero 3d model
+
+for this step we create the HeroExperience we use canvas and usemedia for tablet and mobile and orbital controls and import a room model blender made put some restrictions for the orbital controls and some edit around with the canvas and work out the coloring 
+
+npx gltfjsx optimized-room.glb "a command used to group all the model parts and auto generate a code"
+
+had to run gpu for my chrome.exe to be able to handle model and add a particle function/model w a count of 100 particles falling over the model for a more polished look
+
+5. Title animation and Scroll and counter 
+
+add a nice title animation on reload then added a working scroll function that should take me to my work section then added a nice counter design with an animated countup using npm install react-countup
+
+6. showcase part
+
+Setup: Imports GSAP, ScrollTrigger, and React hooks.
+
+Refs: Creates useRef hooks to target DOM elements.
+
+Animations:
+
+Section fades in on load.
+
+Each project card slides up and fades in when scrolled into view using ScrollTrigger.
+
+Layout: Renders 3 project showcases with images and descriptions.
+
+Export: Component is exported for use in the portfolio.
+
+7. NavBar & LogoShowcase & Feature cards
+
+for the navbar:
+The NavBar component creates a responsive header with links from navLinks. It uses useState and useEffect to detect scroll position and toggle a CSS class (scrolled) for styling. It includes a logo, navigation links, and a “Contact me” button.
+
+for the Logoshowcase section:
+The LogoSection component displays a scrolling (marquee) row of icons from logoIconsList. It maps each icon to a LogoIcon component, repeating the list for a seamless scroll effect. Styling and gradient edges enhance the visual design.
+
+and finally for the Feature cards:
+The FeatureCards component displays a grid of cards showcasing abilities from the abilities array. Each card includes an icon, a title, and a short description. The layout is styled using Tailwind CSS for a clean, responsive design. The TitleHeader component adds a section heading with a subtitle and a main title.
+
+8. Experience section
+
+The Experience component shows a timeline of work experiences using expCards. It uses GSAP with ScrollTrigger to animate elements (cards, text, and timeline) as the user scrolls. Cards slide in from the left, and the timeline line scales smoothly based on scroll progress.
+and for the glowcard, Each experience card is wrapped in a GlowCard, which adds an interactive glow effect. On mouse move, it calculates the angle between the cursor and card center, then updates a CSS variable (--start) to rotate the glow direction, creating a dynamic lighting effect.
+
+9. TechStack Section
+
+Displays your key skills using animated 3D cards.
+Each card uses a .glb model from techStackIcons, rendered with React Three Fiber and @react-three/drei.
+Uses GSAP to animate cards on scroll with fade-in and upward motion (.tech-card).
+The 3D model is wrapped in a floating animation (<Float />) and interactive with OrbitControls.
+Cards are styled with hover effects and responsive rounded borders.
+Optional fallback using static images is included (commented out).
+
+10. Testimonials
+
+The Testimonials section maps through an array of feedback data and displays each item inside a reusable GlowCard component, styled with a glowing effect. It includes the reviewer’s image, name, and message, all arranged in a responsive column layout that adjusts based on screen size for optimal readability.
+
+11. contacts section
