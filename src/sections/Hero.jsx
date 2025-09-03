@@ -54,7 +54,7 @@ const Hero = () => {
                             <h1>that Deliver Results</h1>
                         </div>
                     <p1 className="text-white-50 md:text-xl relitive z-10 pointer-events-none">
-                        Hi, I'm Aly, a develioper and designer based in Egypt with a passion for code
+                        Hi, I'm Ali, a developer and designer based in Egypt with a passion for code
                     </p1>
                     <Button 
                         className="md:w-80 md:h-16 w-60 h-12"
